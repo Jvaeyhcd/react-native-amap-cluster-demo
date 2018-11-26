@@ -23,10 +23,10 @@ export default class App extends Component<Props> {
 
   state = {
     mapCenter: {
-      latitude: 30.577916,
-      longitude: 104.069855,
+      latitude: 30.587916,
+      longitude: 104.169855,
     },
-    zoomLevel: 11,
+    zoomLevel: 8,
   }
 
   onStatusChange = ({ nativeEvent }) => { 
